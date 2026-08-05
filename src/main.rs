@@ -1,3 +1,5 @@
+use wgpu_trial::run;
+
 fn main() {
-    println!("Hello, world!");
+    run().unwrap();
 }
